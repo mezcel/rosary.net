@@ -1,2 +1,2 @@
-# rosary
+# Service
 Rosary App
