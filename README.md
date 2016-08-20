@@ -7,5 +7,4 @@ The Client GUI WPF is not posted yet, I still need to clean out all of the resid
 The working Demo is complete, but the documentation write up is still under construction.
 
 I am making a web page just to illustrate the organization and purpose of this coding project.
-http://mezcel.wixsite.com/rosary
-https://github.com/mezcel/rosary/wiki
+http://mezcel.wixsite.com/rosary , https://github.com/mezcel/rosary/wiki
