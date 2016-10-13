@@ -1,9 +1,13 @@
-﻿<Window x:Name="CoverPage" x:Class="ChattingClient.MainRosaryWindow"
+<Window x:Name="CoverPage" x:Class="ChattingClient.MainRosaryWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainRosaryWindow" Closing="Window_Closing" Background="{x:Null}" WindowState="Maximized" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Cursor="Cross" Height="1371" Foreground="Black">
 
-    <Grid Name ="ChattingSection" UseLayoutRounding="False" Height="1367">
+    <Grid x:Name ="ApplicationMainForm" UseLayoutRounding="False" Height="1367">
+        
+        <!-- Region "Grid Format" -->
+
+        <!-- Region "App Frame" -->
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FF4D2E1A" Offset="0.609"/>
@@ -24,86 +28,93 @@
             <RowDefinition x:Name="bottom" Height="392"/>
             <RowDefinition x:Name="footer"/>
         </Grid.RowDefinitions>
-
-        <!-- Header -->
-        <Rectangle x:Name="chatRectangle" Fill="#FFF4F4F5" Height="342" Margin="0,0,5,0" Stroke="Black" VerticalAlignment="Top" UseLayoutRounding="True" Grid.Column="1" Grid.Row="3"/>
-        <Label Content="Ready To Progress" HorizontalAlignment="Left" Margin="537,63,0,0" VerticalAlignment="Top" Width="110" Grid.Column="1" Height="29" Grid.Row="3" Foreground="Black"/>
-        <ListBox x:Name="BeadListBox" HorizontalAlignment="Left" Height="235" Margin="537,97,0,0" VerticalAlignment="Top" Width="110" Background="#FFECEDFF" Grid.Column="1" Grid.Row="3" FontSize="16"/>
-
-        <!-- Header -->
+        <!-- EndRegion "App Frame" -->
+        
+        <!-- Region "Header" -->
         <Border Grid.Row="0" Grid.Column="1" Background="LightBlue" Margin="0,0,0,963" Grid.RowSpan="3"/>
         <Border Grid.Row="0" Grid.Column="0" Background="LightBlue" Grid.ColumnSpan="2" Margin="0,0,773,963" Grid.RowSpan="3"/>
         <Border Grid.Row="0" Grid.Column="2" Background="LightBlue" Margin="0,0,0,963" Grid.RowSpan="3"/>
+        <!-- EndRegion "Header" -->
 
-        <!-- Top -->
-
+        <!-- Region "Top" -->
         <Border Grid.Row="1" Grid.Column="1" Background="LightBlue" Margin="0,0,0,963" Grid.RowSpan="2"/>
-
         <Border Grid.Row="1" Grid.Column="0" Background="LightBlue" Grid.ColumnSpan="2" Margin="0,0,773,963" Grid.RowSpan="2"/>
-
         <Border Grid.Row="1" Grid.Column="2" Background="LightBlue" Margin="0,0,0,963" Grid.RowSpan="2"/>
+        <!-- EndRegion "Top" -->
 
-        <!-- Middle -->
-
+        <!-- Region "Middle" -->
         <Border Grid.Row="2" Grid.Column="1" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" Cursor="Cross">
             <Border.Background>
                 <ImageBrush x:Name="RosaryBackdrop" ImageSource="Images/RosaryChatAppCanvas800x1000 (v4).jpg" AlignmentY="Top" Stretch="Uniform"/>
             </Border.Background>
-
         </Border>
-
         <Border Grid.Row="2" Grid.Column="0" Background="LightBlue" Grid.ColumnSpan="2" Margin="0,0,773,0"/>
-
         <Border Grid.Row="2" Grid.Column="2" Background="LightBlue"/>
+        <!-- EndRegion "Middle" -->
 
-        <!-- Rosary Objects-->
-        <TextBlock x:Name="mysteryBlock" HorizontalAlignment="Left" Height="25" Margin="117,351,0,0" TextWrapping="Wrap" Text="applied mystery" VerticalAlignment="Top" Width="543" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Center"/>
-
-        <TextBlock x:Name="decadeMonitor" HorizontalAlignment="Left" Height="25" Margin="117,314,0,0" TextWrapping="Wrap" Text="decade sequence" VerticalAlignment="Top" Width="543" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Center"/>
-
-        <TextBlock x:Name="verseMonitor" HorizontalAlignment="Left" Height="25" Margin="77,229,0,0" TextWrapping="Wrap" Text="(verse bookmark)" VerticalAlignment="Top" Width="188" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Left"/>
-
-        <TextBlock x:Name="bookchapterverse" HorizontalAlignment="Left" Height="25" Margin="537,229,0,0" TextWrapping="Wrap" Text="scripture location" VerticalAlignment="Top" Width="160" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Right"/>
-
-        <TextBlock x:Name="scriptureTextBlock" TextWrapping="Wrap" Text="(scripture vereses)" Margin="77,83,76,755" Grid.Column="1" Grid.Row="2" FontSize="18" Cursor="None" TextAlignment="Center"/>
-
-        <TextBlock x:Name="prayerTextBlock" TextWrapping="Wrap" Text="prayerTextBlock" Margin="77,435,76,310" Grid.Column="1" Grid.Row="2" FontSize="18" Cursor="None" TextAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-
-        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="190,25,0,0" VerticalAlignment="Top" Width="75" Click="LoginButton_Click" Height="30" Grid.Column="1" Grid.Row="3" Cursor="Hand" FontSize="18" Background="#FFB6FF83"/>
-
-        <Button x:Name="btnExit" Content="btnExit" HorizontalAlignment="Left" Height="127" Margin="88,751,0,0" VerticalAlignment="Top" Width="134" BorderBrush="{x:Null}" Background="{x:Null}" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="1" Grid.RowSpan="1" TouchDown="btnExit_TouchDown" Foreground="Black" Opacity="0" Cursor="Hand" Click="btnExit_Click" ClickMode="Press"/>
-
-
-        <!-- -->
-
+        <!-- EndRegion "Grid Format" -->
+        
+        <!-- Region "Chat Rectangle" -->
+        
+        <Rectangle x:Name="chatRectangle" Fill="#FFF4F4F5" Height="342" Margin="0,0,5,0" Stroke="Black" VerticalAlignment="Top" UseLayoutRounding="True" Grid.Column="1" Grid.Row="3"/>
         <Rectangle x:Name="msgRectangle" Fill="#FFF4F4F5" Height="42" Margin="0,343,5,0" Stroke="Black" VerticalAlignment="Top" Grid.Column="1" Grid.Row="3"/>
-
-        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Height="30" Margin="21,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Grid.Column="1" Grid.Row="3" TouchEnter="UserNameTextBox_TouchEnter" FontSize="16"/>
-        <Button x:Name="SendButton" Content="Send Message" HorizontalAlignment="Left" Margin="422,347,0,0" VerticalAlignment="Top" Width="320" Height="35" IsDefault="True" Click="TextButton_Click" RenderTransformOrigin="0.476,0.423" Grid.Column="1" Grid.Row="3" FontSize="16.5" Background="#FFD4F1BB"/>
-        <TextBox x:Name="MessageTextBox" HorizontalAlignment="Left" Height="35" Margin="21,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" SpellCheck.IsEnabled="True" Grid.Column="1" Grid.Row="3" TouchEnter="MessageTextBox_TouchEnter" FontSize="18"/>
-        <ListBox x:Name="UsersListBox" HorizontalAlignment="Left" Height="235" Margin="422,97,0,0" VerticalAlignment="Top" Width="110" Grid.Column="1" Grid.Row="3" FontSize="16"/>
+        
+        <!-- Region "Chat Rectangle Text Display" -->
+        <Label x:Name="lblReadyToProgress" Content="Ready To Progress" HorizontalAlignment="Left" Margin="537,63,0,0" VerticalAlignment="Top" Width="110" Grid.Column="1" Height="29" Grid.Row="3" Foreground="Black"/>
+        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Height="30" Margin="21,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164" Grid.Column="1" Grid.Row="3" TouchEnter="UserNameTextBox_TouchEnter" FontSize="16" PreviewMouseDoubleClick="UserNameTextBox_PreviewMouseDoubleClick"/>
         <TextBox x:Name="TextDisplayTextBox" HorizontalAlignment="Left" Height="272" Margin="21,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" Grid.Column="1" Grid.Row="3" FontSize="16" VerticalScrollBarVisibility="Auto"/>
-        <Label Content="Present Members:" HorizontalAlignment="Left" Margin="422,63,0,0" VerticalAlignment="Top" Width="110" Height="29" Grid.Column="1" Grid.Row="3"/>
+        <Label x:Name="lblPresentMembers" Content="Present Members:" HorizontalAlignment="Left" Margin="422,63,0,0" VerticalAlignment="Top" Width="110" Height="29" Grid.Column="1" Grid.Row="3"/>
         <Label x:Name="WelcomeLabel" Content="[welcome user]" HorizontalAlignment="Left" Margin="270,25,0,0" VerticalAlignment="Top" Height="30" Width="262" Grid.Column="1" Grid.Row="3" FontSize="14"/>
-        <RadioButton x:Name="rdoBead" Content="" HorizontalAlignment="Left" Margin="624,693,0,0" VerticalAlignment="Top" Height="16" FontWeight="Bold" IsEnabled="False" Width="19" RenderTransformOrigin="0.526,-2.125" Grid.Column="1" Grid.Row="2"/>
-        <Label x:Name="lblTest" Content="..." HorizontalAlignment="Left" Margin="537,25,0,0" VerticalAlignment="Top" Width="205" Height="33" Grid.Column="1" Grid.Row="3" Foreground="Black"/>
-        <Button x:Name="BeadButtonBack" HorizontalAlignment="Left" Margin="535,906,0,0" VerticalAlignment="Top" Width="45" Height="30" Grid.Column="1" Grid.Row="2" Background="{x:Null}" BorderThickness="0" Cursor="Hand" BorderBrush="{x:Null}" Opacity="0"  Content="back" Click="BeadButtonBack_Click"/>
+        <TextBox x:Name="MessageTextBox" HorizontalAlignment="Left" Height="35" Margin="21,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" SpellCheck.IsEnabled="True" Grid.Column="1" Grid.Row="3" TouchEnter="MessageTextBox_TouchEnter" FontSize="18" MouseDoubleClick="MessageTextBox_MouseDoubleClick"/>
+        <!-- EndRegion "Chat Rectangle Text Display" -->
 
-        <Button x:Name="BeadButtonForward" HorizontalAlignment="Left" Margin="675,905,0,0" VerticalAlignment="Top" Width="45" Height="30" Grid.Column="1" Grid.Row="2" Background="{x:Null}" BorderThickness="0" Cursor="Hand" BorderBrush="{x:Null}" Opacity="0" Content="fwd" Click="BeadButtonForward_Click"/>
+        <!-- Region "Chat Rectangle ListBoxes" -->
+        <ListBox x:Name="BeadListBox" HorizontalAlignment="Left" Height="235" Margin="537,97,0,0" VerticalAlignment="Top" Width="110" Background="#FFECEDFF" Grid.Column="1" Grid.Row="3" FontSize="16"/>
+        <ListBox x:Name="UsersListBox" HorizontalAlignment="Left" Height="235" Margin="422,97,0,0" VerticalAlignment="Top" Width="110" Grid.Column="1" Grid.Row="3" FontSize="16"/>
+        <!-- EndRegion "Chat Rectangle ListBoxes" -->
 
+        <!-- Region "Chat Rectangle Buttons" -->
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="190,25,0,0" VerticalAlignment="Top" Width="75" Click="LoginButton_Click" Height="30" Grid.Column="1" Grid.Row="3" Cursor="Hand" FontSize="18" Background="#FFB6FF83"/>
+        <Button x:Name="SendButton" Content="Send Message" HorizontalAlignment="Left" Margin="422,347,0,0" VerticalAlignment="Top" Width="320" Height="35" IsDefault="True" Click="TextButton_Click" RenderTransformOrigin="0.476,0.423" Grid.Column="1" Grid.Row="3" FontSize="16.5" Background="#FFD4F1BB"/>
         <Button x:Name="curtainShowbutton" Content="Veil Drape" HorizontalAlignment="Left" Margin="652,210,0,0" Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" Width="90" Height="122" RenderTransformOrigin="0.5,0.5" FontSize="18" Click="curtainShowbutton_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Images/rectangleRedButton.jpg" Stretch="None"/>
             </Button.Background>
         </Button>
+        <!-- EndRegion "Chat Rectangle Buttons" -->
+        
+        <!-- EndRegion "Chat Rectangle"-->        
 
+        <!-- Region "Rosary Objects"-->
 
-        <!-- server selector -->
-        <Canvas x:Name="ServerLoginCanvas" Grid.ColumnSpan="1" HorizontalAlignment="Center" Height="400" Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" Width="773" Visibility="Visible" Background="#FF0077C9" Grid.RowSpan="2">
+        <!-- Region "Rosary Objects Text Boxes"-->
+        <TextBlock x:Name="mysteryBlock" HorizontalAlignment="Left" Height="25" Margin="117,351,0,0" TextWrapping="Wrap" Text="applied mystery" VerticalAlignment="Top" Width="543" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Center"/>
+        <TextBlock x:Name="decadeMonitor" HorizontalAlignment="Left" Height="25" Margin="117,314,0,0" TextWrapping="Wrap" Text="decade sequence" VerticalAlignment="Top" Width="543" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Center"/>
+        <TextBlock x:Name="verseMonitor" HorizontalAlignment="Left" Height="25" Margin="77,229,0,0" TextWrapping="Wrap" Text="(verse bookmark)" VerticalAlignment="Top" Width="188" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Left"/>
+        <TextBlock x:Name="bookchapterverse" HorizontalAlignment="Left" Height="25" Margin="537,229,0,0" TextWrapping="Wrap" Text="scripture location" VerticalAlignment="Top" Width="160" Grid.Column="1" Grid.Row="2" FontSize="18" TextAlignment="Right"/>
+        <TextBlock x:Name="scriptureTextBlock" TextWrapping="Wrap" Text="(scripture vereses)" Margin="77,83,76,755" Grid.Column="1" Grid.Row="2" FontSize="18" Cursor="None" TextAlignment="Center"/>
+        <TextBlock x:Name="prayerTextBlock" TextWrapping="Wrap" Text="prayerTextBlock" Margin="77,435,76,310" Grid.Column="1" Grid.Row="2" FontSize="18" Cursor="None" TextAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <!-- EndRegion "Rosary Objects Text Boxes"-->
+
+        <!-- Region "Rosary Objects Buttons"-->
+        <Button x:Name="btnExit" Content="btnExit" HorizontalAlignment="Left" Height="127" Margin="88,751,0,0" VerticalAlignment="Top" Width="134" BorderBrush="{x:Null}" Background="{x:Null}" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="1" Grid.RowSpan="1" TouchDown="btnExit_TouchDown" Foreground="Black" Opacity="0" Cursor="Hand" Click="btnExit_Click" ClickMode="Press"/>
+        <RadioButton x:Name="rdoBead" Content="" HorizontalAlignment="Left" Margin="624,693,0,0" VerticalAlignment="Top" Height="16" FontWeight="Bold" IsEnabled="False" Width="19" RenderTransformOrigin="0.526,-2.125" Grid.Column="1" Grid.Row="2"/>
+        <Label x:Name="lblTest" Content="..." HorizontalAlignment="Left" Margin="537,25,0,0" VerticalAlignment="Top" Width="205" Height="33" Grid.Column="1" Grid.Row="3" Foreground="Black"/>        
+        <Button x:Name="BeadButtonBack" HorizontalAlignment="Left" Margin="535,906,0,0" VerticalAlignment="Top" Width="45" Height="30" Grid.Column="1" Grid.Row="2" Background="{x:Null}" BorderThickness="0" Cursor="Hand" BorderBrush="{x:Null}" Opacity="0"  Content="back" Click="BeadButtonBack_Click"/>
+        <Button x:Name="BeadButtonForward" HorizontalAlignment="Left" Margin="675,905,0,0" VerticalAlignment="Top" Width="45" Height="30" Grid.Column="1" Grid.Row="2" Background="{x:Null}" BorderThickness="0" Cursor="Hand" BorderBrush="{x:Null}" Opacity="0" Content="fwd" Click="BeadButtonForward_Click"/>
+        <Button x:Name="BeadButton" HorizontalAlignment="Left" Margin="550,736,0,0" VerticalAlignment="Top" Width="157" Height="155" Grid.Column="1" Grid.Row="2" Background="{x:Null}" BorderThickness="0" Cursor="Hand" BorderBrush="{x:Null}" Opacity="0" Click="BeadButton_Click" Content="Button"/>
+        <Button x:Name="btnNextText" Content="btnNextText" HorizontalAlignment="Left" Height="72" Margin="665,310,0,0" VerticalAlignment="Top" Width="51" BorderBrush="{x:Null}" Background="{x:Null}" Grid.ColumnSpan="1" Grid.RowSpan="1" Click="btnNextText_Click" Cursor="Hand" Opacity="0" Grid.Row="2" Grid.Column="1"/>
+        <Button x:Name="btnPevText" Content="btnPevText" HorizontalAlignment="Left" Height="72" Margin="61,310,0,0" VerticalAlignment="Top" Width="51" BorderBrush="Black" Background="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Click="btnPevText_Click" Cursor="Hand" Opacity="0" Grid.Row="2" Grid.Column="1"/>
+        <!-- EndRegion "Rosary Objects Buttons"-->
+        
+        <!-- EndRegion "Rosary Objects"-->
+
+        <!-- Region "Server Selector Canvas" -->
+        <Canvas x:Name="ServerLoginCanvas" Grid.ColumnSpan="1" HorizontalAlignment="Center" Height="400" Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" Width="773" Background="#FF0077C9" Grid.RowSpan="2">
 
             <Button x:Name="btnConfirmServerSelect" Content="Continue With Selected" Canvas.Left="519" Canvas.Top="10" Width="244" Height="43" FontSize="20" Cursor="Hand" Click="btnConfirmServerSelect_Click" Background="#FFB6FFAE"/>
 
-            <Button x:Name="btnCancelServerSelect" Content="Cancel" Canvas.Left="636" Canvas.Top="334" Width="127" Height="56" FontSize="22" Cursor="Hand" Click="btnCancelServerSelect_Click" Background="#FFFFC6C6"/>
+            <Button x:Name="btnCancelServerSelect" Content="Cancel/Default" Canvas.Left="591" Canvas.Top="334" Width="172" Height="56" FontSize="22" Cursor="Hand" Click="btnCancelServerSelect_Click" Background="#FFFFC6C6"/>
 
             <ComboBox x:Name="cbxServerSelectLAN" Grid.ColumnSpan="1" Grid.RowSpan="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="263" FontSize="22" Height="43" Canvas.Left="251" Canvas.Top="10" SelectedIndex="0" DropDownClosed="cbxServerSelectLAN_DropDownClosed" Cursor="Hand" BorderBrush="{x:Null}">
                 <ComboBox.Background>
@@ -128,7 +139,9 @@
 
         </Canvas>
 
-        <!-- Keyboard -->
+        <!-- EndRegion -->
+        
+        <!-- Region "Keyboard Canvas" -->
         <Canvas x:Name="keyboardCanvas" Grid.ColumnSpan="1" HorizontalAlignment="Center" Height="379" Margin="9,10,14,0" Grid.Column="1" Grid.Row="3" VerticalAlignment="Top" Width="750" Visibility="Hidden">
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -180,20 +193,16 @@
             <Label x:Name="keyboardDestinationLabel" Content="Chat Message or User Name" Canvas.Left="28" Canvas.Top="14" Foreground="#FFACAC68" Width="450" Height="40" FontSize="18" HorizontalAlignment="Center" FontStyle="Italic"/>
         </Canvas>
 
-        <!-- cover art  -->
+        <!-- EndRegion "Keyboard Canvas" -->
+        
+        <!-- Region "Cover Art Canvas" -->
         <Canvas x:Name="coverArtCanvas" Grid.ColumnSpan="1" Grid.Column="1" Grid.Row="3" TouchEnter="coverArtCanvas_TouchEnter" Margin="0,0,5,0" Grid.RowSpan="2" Cursor="Hand" ScrollViewer.VerticalScrollBarVisibility="Disabled" MouseDown="coverArtCanvas_MouseDown" Visibility="Hidden">
             <Canvas.Background>
                 <ImageBrush ImageSource="Images/Annunciation800x420.jpg" Stretch="UniformToFill"/>
             </Canvas.Background>
         </Canvas>
-
-        <Button x:Name="BeadButton" HorizontalAlignment="Left" Margin="550,736,0,0" VerticalAlignment="Top" Width="157" Height="155" Grid.Column="1" Grid.Row="2" Background="{x:Null}" BorderThickness="0" Cursor="Hand" BorderBrush="{x:Null}" Opacity="0" Click="BeadButton_Click" Content="Button"/>
-
-        <Button x:Name="btnNextText" Content="btnNextText" HorizontalAlignment="Left" Height="72" Margin="665,310,0,0" VerticalAlignment="Top" Width="51" BorderBrush="{x:Null}" Background="{x:Null}" Grid.ColumnSpan="1" Grid.RowSpan="1" Click="btnNextText_Click" Cursor="Hand" Opacity="0" Grid.Row="2" Grid.Column="1"/>
-
-        <Button x:Name="btnPevText" Content="btnPevText" HorizontalAlignment="Left" Height="72" Margin="61,310,0,0" VerticalAlignment="Top" Width="51" BorderBrush="Black" Background="Black" Grid.ColumnSpan="1" Grid.RowSpan="1" Click="btnPevText_Click" Cursor="Hand" Opacity="0" Grid.Row="2" Grid.Column="1"/>
-
-
-
+        <!-- EndRegion -->
+        
     </Grid>
+    
 </Window>
