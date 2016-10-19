@@ -1,3 +1,8 @@
-# Service
+# Service/Server
 
-Service
+### Main Components
+
+* Program.cs
+* ConnectedClient.cs
+* ChattingService.cs
+* App.config
