@@ -16,3 +16,7 @@ https://visualstudiogallery.msdn.microsoft.com/3c534623-bb05-417f-afc0-c9e26bf0e
 [Sites Using React](https://github.com/mezcel/rosary/wiki)
 
 [My Awesome Wiki](https://github.com/mezcel/rosary/wiki)
+
+
+./Wiki/rosary
+./blob/master/rosary
