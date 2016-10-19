@@ -11,3 +11,6 @@ If your are a devloper, I recomend installing "XAML Regions" It is free from Mic
 A small extension that adds the ability to define collapsable regions in XAML & XML code. It recognizes region definitions that are defined inside of XML comments so that code designed using this extension will have no problems compiling in environments that do not have this extension.
 
 https://visualstudiogallery.msdn.microsoft.com/3c534623-bb05-417f-afc0-c9e26bf0e177
+
+
+[Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
