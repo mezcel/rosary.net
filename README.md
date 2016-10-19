@@ -1,12 +1,10 @@
 # Windows.NET Community Rosary Prayer Group 
-## (App Development Example)
+### (App Development Example)
 
 This app was developed using Visual Studio with the MySql Connector ADO.NET Plugin
 
-### I am making a web page just to illustrate the organization and purpose of this coding project.
-
-_[Rosary App Web Page](http://mezcel.wixsite.com/rosary)
-_[Github Code Branches](https://github.com/mezcel/rosary/branches)
+_ [Rosary App Web Page](http://mezcel.wixsite.com/rosary) A web page just to illustrate the organization and purpose of this coding project.
+_ [Github Code Branches](https://github.com/mezcel/rosary/branches)
 
 
 ## Sacred Scripture DB / Social Prayer Framework
