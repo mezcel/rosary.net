@@ -3,8 +3,9 @@
 
 This app was developed using Visual Studio with the MySql Connector ADO.NET Plugin
 
-_ [Rosary App Web Page](http://mezcel.wixsite.com/rosary) A web page just to illustrate the organization and purpose of this coding project.
-_ [Github Code Branches](https://github.com/mezcel/rosary/branches)
+[Rosary App Web Page](http://mezcel.wixsite.com/rosary) A web page just to illustrate the organization and purpose of this coding project.
+
+[Github Code Branches](https://github.com/mezcel/rosary/branches)
 
 
 ## Sacred Scripture DB / Social Prayer Framework
