@@ -57,18 +57,7 @@ namespace RosaryClient
         int repeatbead_temp = 0; //used to count sequential beads with the same number (used in verse and prayer)
         int repeat_prayer_temp = 0; //this is directly related to the repeatbead_temp, but used to prevent confusion in 
 
-        public static string ASUSconnectionstringmysql = "datasource=127.0.0.1;port=3306;username=root;password=sumano00;";
-        //public static string ASUSconnectionstringmysql = "datasource=192.168.1.100;port=3306;username=root;password=sumano00;";
-        //127.0.0.1
-        //192.168.1.100
-        //public static string DELLconnectionstringmysql = "datasource=127.0.0.1;port=3306;username=mezcel;password=;";
-        //public static string DELLconnectionstringmysql = "datasource=192.168.1.102;port=3306;username=mezcel;password=;"; //toddnetwork
-        public static string DELLconnectionstringmysql = "datasource=192.168.1.100;port=3306;username=mezcel;password=;";
-        //198.105.254.20
-        //198.105.244.20
-        //192.168.1.100
-        //127.0.0.1
-
+        public static string ASUSconnectionstringmysql = "datasource=127.0.0.1;port=3306;username=root;password=*****;";
 
         MySqlConnection mcon = new MySqlConnection(ASUSconnectionstringmysql); //localhost //DELLconnectionstringmysql //ASUSconnectionstringmysql
         //MySqlConnection mcon = new MySqlConnection(ASUSconnectionstringmysql);
