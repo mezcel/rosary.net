@@ -1,5 +1,5 @@
-﻿
-using ChattingInterfaces;
+
+using ClientServerInterfaces;
 //using ChattingServer;
 
 using System;
@@ -33,9 +33,14 @@ using System.IO;
 //used in parsing
 using System.Text.RegularExpressions;
 
-namespace ChattingClient
+namespace RosaryClient
 {
     
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    /// 
+
     public partial class MainRosaryWindow : Window
     {
         //chat server
@@ -52,14 +57,21 @@ namespace ChattingClient
         int repeatbead_temp = 0; //used to count sequential beads with the same number (used in verse and prayer)
         int repeat_prayer_temp = 0; //this is directly related to the repeatbead_temp, but used to prevent confusion in 
 
-		//ClientPC
-        public static string ASUSconnectionstringmysql = "datasource=127.0.0.1;port=3306;username=root;password=********;";
-		//ServerPC
-        public static string DELLconnectionstringmysql = "datasource=192.168.1.102;port=3306;username=mezcel;password=********;";
-     
+        public static string ASUSconnectionstringmysql = "datasource=127.0.0.1;port=3306;username=root;password=sumano00;";
+        //public static string ASUSconnectionstringmysql = "datasource=192.168.1.100;port=3306;username=root;password=sumano00;";
+        //127.0.0.1
+        //192.168.1.100
+        //public static string DELLconnectionstringmysql = "datasource=127.0.0.1;port=3306;username=mezcel;password=;";
+        //public static string DELLconnectionstringmysql = "datasource=192.168.1.102;port=3306;username=mezcel;password=;"; //toddnetwork
+        public static string DELLconnectionstringmysql = "datasource=192.168.1.100;port=3306;username=mezcel;password=;";
+        //198.105.254.20
+        //198.105.244.20
+        //192.168.1.100
+        //127.0.0.1
 
 
-        MySqlConnection mcon = new MySqlConnection(DELLconnectionstringmysql); //localhost
+        MySqlConnection mcon = new MySqlConnection(ASUSconnectionstringmysql); //localhost //DELLconnectionstringmysql //ASUSconnectionstringmysql
+        //MySqlConnection mcon = new MySqlConnection(ASUSconnectionstringmysql);
         MySqlCommand mcd;
         MySqlDataAdapter mda;
         DataTable table;
@@ -79,7 +91,10 @@ namespace ChattingClient
         {
 
             #region chatserverStuff
-            string tcpendpointaddress; // = "net.tcp://192.168.0.163:7777/ChattingService";
+
+            //_channelFactory = new DuplexChannelFactory<IChattingService>(new ClientCallback(), "ChattingServiceEndPoint"); //original working version
+            string tcpendpointaddress; // = "net.tcp://192.168.0.100:7777/ChattingService";
+            //tcpendpointaddress = "net.tcp://localhost:7777/ChattingService"; //test IP
             tcpendpointaddress = "net.tcp://" + RosaryVarsBetweenForms.ServerEndpointAddress + ":7777/ChattingService"; // actual ip
             
             _channelFactory = new DuplexChannelFactory<IChattingService>(new ClientCallback(), new NetTcpBinding(), new EndpointAddress(tcpendpointaddress));
@@ -90,9 +105,11 @@ namespace ChattingClient
 
             #region MySqlStuff
 
-            string LeccioDivinaIP = getIPv4("DELLMEZCEL");
-            DELLconnectionstringmysql = "datasource=" + LeccioDivinaIP + ";port=3306;username=mezcel;password=**********;";
-            RosaryVarsBetweenForms.ConnStrRose = DELLconnectionstringmysql; 
+           // string LeccioDivinaIP = getIPv4("DELLMEZCEL");            
+            //DELLconnectionstringmysql = "datasource=" + LeccioDivinaIP + ";port=3306;username=mezcel;password=;";
+            string LeccioDivinaIP = getIPv4("ASUSLAPTOP");
+            RosaryVarsBetweenForms.ConnStrRose = ASUSconnectionstringmysql; //localhost //DELLconnectionstringmysql //ASUSconnectionstringmysql
+            //RosaryVarsBetweenForms.ConnStrRose = DELLconnectionstringmysql;
                 RosaryVarsBetweenForms.languageInt = 2;
                 string query = "SELECT  COUNT(*) FROM (SELECT beadnumber FROM lecciodivina.bead GROUP BY beadnumber) groups;";
                 beadtotal = Convert.ToInt32(getData(query).Rows[0][0]);
@@ -146,8 +163,28 @@ namespace ChattingClient
                         UserNameTextBox.IsEnabled = false;
                         LoginButton.IsEnabled = false;
 
-                        LoadUserList(Server.GetCurrentUsers());
+                        LoadUserList(Server.GetCurrentUsers());                        
                     }
+
+                    //the newest member in a group greater than 1 shall not initiate a bead, yet will be listed among the redy to proceede list
+                    
+
+                    if (UsersListBox.Items.Count > 1)
+                    {
+                        rdoBead.IsChecked = true;
+                        BeadButton.IsEnabled = false;
+                        BeadListBox.Items.Add(UserNameTextBox.Text);
+
+                        // This is the waiting list Part
+                        List<string> templist = new List<string>();
+                        foreach (string item in BeadListBox.Items)
+                        {
+                            templist.Add(item);
+                        }
+
+                        Server.SendBeadListMessageToALL(templist, UserNameTextBox.Text);
+                    }
+
                 }
                 else if (UserNameTextBox.Text == "")
                 {
@@ -284,6 +321,8 @@ namespace ChattingClient
                 //reactivate bead button
                 BeadButton.IsEnabled = true;
                 BeadListBox.Items.Clear();
+                //templist.Clear();
+                //Server.SendBeadListMessageToALL(updatedBeadListBox, UserNameTextBox.Text);
             }
             else if (BeadListBox.Items.Count < UsersListBox.Items.Count)
             {
@@ -292,7 +331,6 @@ namespace ChattingClient
                 //deactivate button
                 BeadButton.IsEnabled = false;
             }
-
 
         }
 
@@ -1147,7 +1185,7 @@ namespace ChattingClient
 
             AddBeadUserToList(UserNameTextBox.Text); //add to BeadListBox
 
-            // This is the list Part
+            // This is the waiting list Part
             List<string> templist = new List<string>();
             foreach (string item in BeadListBox.Items)
             {
@@ -1170,6 +1208,7 @@ namespace ChattingClient
             {
                 Server.SendBeadListMessageToALL(templist, UserNameTextBox.Text);
                 //deactivate button
+                BeadButton.IsEnabled = false;
                 BeadButton.IsEnabled = false;
 
             }
@@ -1413,14 +1452,21 @@ namespace ChattingClient
         {
             string ipstring;
             IPAddress ip = Dns.GetHostEntry(ipquery).AddressList.Where(o => o.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork).First();
+            //Console.WriteLine(ip);
+            //string name = Dns.GetHostEntry(ip).HostName.ToString();
+            //Console.WriteLine(name);
             ipstring = ip.ToString();
+
+            //string ipstring2 = Dns.GetHostAddresses("mezceltran");
 
             return ipstring;
         }
         public static string getIPRouter(string ipquery)
         {
             IPAddress ip = Dns.GetHostEntry(ipquery).AddressList.Where(o => o.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork).First();
+            //Console.WriteLine(ip);
             string name = Dns.GetHostEntry(ip).HostName.ToString();
+            //Console.WriteLine(name);
             return name;
         }
 
@@ -1481,6 +1527,20 @@ namespace ChattingClient
                 ipconfirmTextBlock.Text = "Select a name from the 'dropdown box', or press 'Cancel'\n\n You are defaulted to a localhost chat server";
             }
             
+        }
+
+        private void MessageTextBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            keyboardCanvas.Visibility = Visibility.Visible;
+            keyboardDestinationLabel.Content = "Send a chat message ...";
+            keyboardString.Text = "|";
+        }
+              
+        private void UserNameTextBox_PreviewMouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            keyboardCanvas.Visibility = Visibility.Visible;
+            keyboardDestinationLabel.Content = "User Name Input ...";
+            keyboardString.Text = "|";
         }
 
     }//end WPF form
