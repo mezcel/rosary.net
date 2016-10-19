@@ -13,4 +13,4 @@ A small extension that adds the ability to define collapsable regions in XAML & 
 https://visualstudiogallery.msdn.microsoft.com/3c534623-bb05-417f-afc0-c9e26bf0e177
 
 
-[Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
+[Sites Using React](https://github.com/mezcel/rosary/wiki)
