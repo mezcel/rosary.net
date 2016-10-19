@@ -1,2 +1,6 @@
 # Client-Service Interface
-Rosary App
+
+### Main comonents
+
+* IChattingService.cs
+* IClient.cs
