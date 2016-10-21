@@ -1,3 +1,6 @@
+Notice! This is not a Git Project, enclosed are just coppies of my code
+
+
 # Windows.NET Community Rosary Prayer Group 
 ### (App Development Example)
 
