@@ -1,7 +1,9 @@
 Notice! This is not a Git Project, enclosed are just coppies of my code
 
+# Version 3: jQuery Rosary
+### just a basic rosary
 
-# Windows.NET Community Rosary Prayer Group 
+# Version 2: Windows.NET Community Rosary Prayer Group 
 ### (App Development Example)
 
 This app was developed using Visual Studio with the MySql Connector ADO.NET Plugin
@@ -21,3 +23,6 @@ _Prayer Bead Simulator_
 * WCF Service
 * Client-Service Interface
 * MySql Database
+
+# Version 1: WinForm Win8, E-Reader Tablet Rosary
+### Bible DB
