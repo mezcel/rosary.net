@@ -1,6 +1,6 @@
 Notice! This is not a Git Project, enclosed are just coppies of my code
 
-# Version 3: jQuery Rosary
+# Version 3: jQuery Mobile Rosary
 ### just a basic rosary
 
 # Version 2: Windows.NET Community Rosary Prayer Group 
