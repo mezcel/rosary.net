@@ -1,4 +1,4 @@
-Notice! This is not a Git Project, enclosed are just coppies of my code
+Notice! This is not a Git Project, enclosed are just copies of my code
 
 
 # Windows.NET Community Rosary Prayer Group 
