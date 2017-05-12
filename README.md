@@ -1,4 +1,5 @@
 Notice! This is not a Git Project, enclosed are just copies of my code
+<a><img src="https://raw.githubusercontent.com/mezcel/rosary/master/coloredwarningtext.svg"/></a>
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 ```diff
