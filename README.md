@@ -1,7 +1,6 @@
 Notice! This is not a Git Project, enclosed are just copies of my code
 
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 ```diff
 - Notice! This is not a Git Project, enclosed are just copies of my code
 ```
