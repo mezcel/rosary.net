@@ -1,9 +1,8 @@
-Notice! This is not a Git Project, enclosed are just copies of my code
-<a><img src="https://raw.githubusercontent.com/mezcel/rosary/master/coloredwarningtext.svg"/></a>
-
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 ```diff
-- Notice! This is not a Git Project, enclosed are just copies of my code
+- Notice! 
+- This is not a Git project. Enclosed are the important files illustrating code functionalities and outlines of my design algorithm. 
+- If it is worth your time to “Fork” me, then you are welcome to email me for a password to open the 7zip project files.
+- I would love to talk you through it. There are secret snares, let me point out where they are.
 ```
 
 
