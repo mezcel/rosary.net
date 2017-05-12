@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="50px">
-  <text font-size="18" x="10" y="20">
-    <tspan fill="red"><b>Notice</b></tspan>:
-    <tspan fill="red">This is not a Git project. Enclosed are the important files illustrating code functionalities and outlines of my design algorithm.
-If it is worth your time to “Fork” me, then you are welcome to email me for a password to open the 7zip project files.
-</tspan>!
-  </text>
-</svg>
