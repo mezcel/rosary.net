@@ -22,6 +22,8 @@ _Prayer Bead Simulator_
 * Client-Service Interface
 * MySql Database
 
+---
+
 This was the 2nd Development Platform build in my Rosary Series
 
 > [Version 1](https://www.youtube.com/watch?v=VLw9K8jhlSk): WinForm (Rosary + Religious Scripture / Bible Database)
