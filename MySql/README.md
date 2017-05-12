@@ -1,6 +1,4 @@
-# Lectio Divina
-
-### Religious Text Server
+# Lectio Divina: Religious Text Server
 
 ## Enclosed Is a Sacred Scripture Database
 
