@@ -1,7 +1,7 @@
 ```diff
 - Notice! 
 - This is not a Git project.
-- Enclosed are the important files illustrating code functionalities and outlines of my design algorithm. 
+- Enclosed are the important files illustrating code functionalities and outlines of my design workflow. 
 - You are welcome to email me for a password to open the 7zip project files.
 - I would love to talk you through it. There are secret snares, let me point out where they are.
 ```
