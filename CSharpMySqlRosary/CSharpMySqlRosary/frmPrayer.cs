@@ -15,17 +15,17 @@ namespace CSharpMySqlRosary
     public partial class frmPrayer : Form
     {
         //connect c# to mysql schema database
-        // MySqlConnection mcon = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=sumano00");//localhost
+        // MySqlConnection mcon = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=yourpw");//localhost
         MySqlConnection mcon = new MySqlConnection(RosaryVarsBetweenForms.ConnStrRose); //localhost
         MySqlCommand mcd;
         MySqlDataAdapter mda;
         DataTable table;
-        
+
         //--- form drag vvv ----------------------------------------
         private const int WM_NCHITTEST = 0x84;
         private const int HT_CLIENT = 0x1;
         private const int HT_CAPTION = 0x2;
-        
+
         protected override void WndProc(ref Message m)
         {
             base.WndProc(ref m);
@@ -33,12 +33,12 @@ namespace CSharpMySqlRosary
                 m.Result = (IntPtr)(HT_CAPTION);
         }
         //--- form drag ^^^ ----------------------------------------
-        
+
         public frmPrayer()
         {
             InitializeComponent();
         }
-        
+
         private void btnMenu_Click(object sender, EventArgs e)
         {
             frmMenu Menu = new frmMenu();
@@ -80,7 +80,7 @@ namespace CSharpMySqlRosary
             // the listbox defaults its index to 0, so I had to "+1" the _FK ID, thats how the DB "hack" works
             string query = "SELECT prayertextString FROM lecciodivina.prayertext WHERE (prayerType_FK = " + prayerType_FK + ") AND (lexicon_FK = " + lexicon_FK + ");";
 
-            txtPrayerText.Text = getData(query).Rows[0][0].ToString(); 
+            txtPrayerText.Text = getData(query).Rows[0][0].ToString();
         }
 
         private void lbxPrayerName_SelectedValueChanged(object sender, EventArgs e)
@@ -131,6 +131,6 @@ namespace CSharpMySqlRosary
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             lblTime.Text = DateTime.Now.ToShortTimeString();
-        }    
+        }
     }
 }

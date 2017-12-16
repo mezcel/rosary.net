@@ -14,18 +14,18 @@ namespace CSharpMySqlRosary
     public partial class frmScripture : Form
     {
         //connect c# to mysql schema database
-        // MySqlConnection mcon = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=sumano00");//localhost
+        // MySqlConnection mcon = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=yourpw");//localhost
         MySqlConnection mcon = new MySqlConnection(RosaryVarsBetweenForms.ConnStrRose); //localhost
         MySqlCommand mcd;
         MySqlDataAdapter mda;
         //MySqlDataReader reader;
         DataTable table;
-                
+
         //--- form drag vvv ----------------------------------------
         private const int WM_NCHITTEST = 0x84;
         private const int HT_CLIENT = 0x1;
         private const int HT_CAPTION = 0x2;
-        
+
         protected override void WndProc(ref Message m)
         {
             base.WndProc(ref m);
@@ -113,7 +113,7 @@ namespace CSharpMySqlRosary
         {
             lbxVerse.SelectedIndex = -1;
             loadVerses(lbxChapter.SelectedIndex + 1, lbxBook.SelectedIndex + 1);
-            loadQuotes(lbxChapter.SelectedIndex + 1, lbxBook.SelectedIndex + 1);            
+            loadQuotes(lbxChapter.SelectedIndex + 1, lbxBook.SelectedIndex + 1);
         }
 
         private void lbxVerse__Click(object sender, EventArgs e)
