@@ -7,7 +7,7 @@ I consolidated it to be Git friendly. The previous post was just a glorified Gis
 
 ---
 
-# Windows.NET Community Rosary Prayer Group 
+# ADO.NET MySql Connector Devotional Pamphlet Application 
 ### (App Development Example)
 
 This app was developed using Visual Studio with the MySql Connector ADO.NET Plugin
