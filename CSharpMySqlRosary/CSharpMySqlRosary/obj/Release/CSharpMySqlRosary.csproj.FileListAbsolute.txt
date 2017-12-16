@@ -1,0 +1,15 @@
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Release\CSharpMySqlRosary.exe.config
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Release\CSharpMySqlRosary.exe
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Release\CSharpMySqlRosary.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.Form1.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.frmMeditation.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.frmMenu.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.frmPrayer.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.frmRosary.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.frmScripture.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.frmLogin.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.Properties.Resources.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.csproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.exe
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Release\CSharpMySqlRosary.pdb
