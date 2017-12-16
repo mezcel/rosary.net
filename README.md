@@ -1,32 +1,24 @@
-```diff
-- Notice! 
-- This is not a Git project.
-- Enclosed are the important files illustrating code functionalities and outlines of my design workflow. 
-- You are welcome to email me for a password to open the 7zip project files.
-- I would love to talk you through it. There are secret snares, let me point out where they are.
-```
+# Rosary App – Version 1
+##### A Basic C Sharp and MySql Connector ADO App
 
+I have not touched this code for about a year since posting it. I may have modified some comments, but the structure and design is pretty much the same.
 
-# Windows.NET Community Rosary Prayer Group 
+I consolidated it to be Git friendly. The previous post was just a glorified Gist previewing key script which makes this application work.
+
+---
+
+# ADO.NET MySql Connector Devotional Pamphlet Application 
 ### (App Development Example)
 
 This app was developed using Visual Studio with the MySql Connector ADO.NET Plugin
 
 [Rosary App Web Page:](http://mezcel.wixsite.com/rosary) A web page link used to illustrate the organization and purpose of this coding project
 
-
-### Sacred Scripture DB / Social Prayer Framework
+### Sacred Scripture DB
 _Lectio Divina Database Server,_
-_In-App Conference Hosting,_
 _Interactive Devotional Pamphlet,_
-_Prayer Bead Simulator_
-
-### Git Code Branches
-
-* Rosary Client
-* WCF Service
-* Client-Service Interface
-* MySql Database
+_Prayer Bead Simulator,_
+_Multi-Language Translation,_
 
 ---
 

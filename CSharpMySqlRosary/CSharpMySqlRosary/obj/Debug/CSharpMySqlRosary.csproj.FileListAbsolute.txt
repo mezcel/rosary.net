@@ -1,0 +1,39 @@
+C:\Users\Michael\AppData\Local\Temporary Projects\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe.config
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.Form1.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmMeditation.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmMenu.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmPrayer.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmRosary.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmScripture.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmLogin.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.Properties.Resources.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.csproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe.config
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.application
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.application
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.exe
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.csprojResolveAssemblyReference.cache
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe.config
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.exe
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.pdb
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe.manifest
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.application
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.exe
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\bin\Debug\CSharpMySqlRosary.pdb
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.csprojResolveAssemblyReference.cache
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.Form1.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmMeditation.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmMenu.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmPrayer.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmRosary.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmScripture.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.frmLogin.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.Properties.Resources.resources
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.csproj.GenerateResource.Cache
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.exe.manifest
+D:\VisualStudio\CSharpMySqlRosary\CSharpMySqlRosary\CSharpMySqlRosary\obj\Debug\CSharpMySqlRosary.application
