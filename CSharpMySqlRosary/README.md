@@ -1,3 +1,7 @@
+# Visual Studio Project Folder
+
+---
+
 # Rosary App - Version 1
 ### Visual Studio Project Folder
 ##### The IDE Script
