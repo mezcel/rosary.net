@@ -1,0 +1,45 @@
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe.config
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.application
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingInterfaces.dll
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\bin\Debug\ChattingInterfaces.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\MainRosaryWindow.baml
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\Menu.baml
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\MainRosaryWindow.g.cs
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\Menu.g.cs
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\App.g.cs
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\ChattingClient_MarkupCompile.cache
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.g.resources
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.csproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.application
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.Properties.Resources.resources
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe.config
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.pdb
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe.manifest
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.application
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingClient.pdb
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingInterfaces.dll
+D:\VisualStudio\ChattingApplication\ChattingClient\bin\Debug\ChattingInterfaces.pdb
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.csprojResolveAssemblyReference.cache
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\MainRosaryWindow.baml
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\Menu.baml
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\MainRosaryWindow.g.cs
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\Menu.g.cs
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\App.g.cs
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient_MarkupCompile.cache
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.g.resources
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.Properties.Resources.resources
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.csproj.GenerateResource.Cache
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe.manifest
+D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.application
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe.config
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\obj\Debug\ChattingClient.pdb

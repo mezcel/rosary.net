@@ -1,0 +1,9 @@
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingInterfaces\bin\Debug\ChattingInterfaces.dll
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingInterfaces\bin\Debug\ChattingInterfaces.pdb
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingInterfaces\obj\Debug\ChattingInterfaces.dll
+C:\Users\Michael\Documents\Visual Studio 2012\Projects\ChattingApplication (Full Final)\ChattingApplication\ChattingInterfaces\obj\Debug\ChattingInterfaces.pdb
+D:\VisualStudio\ChattingApplication\ChattingInterfaces\bin\Debug\ChattingInterfaces.dll
+D:\VisualStudio\ChattingApplication\ChattingInterfaces\bin\Debug\ChattingInterfaces.pdb
+D:\VisualStudio\ChattingApplication\ChattingInterfaces\obj\Debug\ClientServerInterfaces.csprojResolveAssemblyReference.cache
+D:\VisualStudio\ChattingApplication\ChattingInterfaces\obj\Debug\ChattingInterfaces.dll
+D:\VisualStudio\ChattingApplication\ChattingInterfaces\obj\Debug\ChattingInterfaces.pdb
