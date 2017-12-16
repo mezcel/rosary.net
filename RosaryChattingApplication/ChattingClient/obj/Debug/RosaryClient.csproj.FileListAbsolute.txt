@@ -40,3 +40,6 @@ D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.Proper
 D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\RosaryClient.csproj.GenerateResource.Cache
 D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe.manifest
 D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\ChattingClient.application
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\bin\Debug\ChattingClient.exe.config
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\obj\Debug\ChattingClient.exe
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\obj\Debug\ChattingClient.pdb

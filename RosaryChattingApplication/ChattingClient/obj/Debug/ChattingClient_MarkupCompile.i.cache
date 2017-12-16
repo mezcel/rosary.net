@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\VisualStudio\ChattingApplication\ChattingClient\obj\Debug\
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\obj\Debug\
 RosaryClient
 none
 false
 DEBUG;TRACE
-D:\VisualStudio\ChattingApplication\ChattingClient\App.xaml
+D:\github\rosary.net\RosaryChattingApplication\ChattingClient\App.xaml
 2-1429872552
 
 12819835112
-17-88602759
+171829269735
 MainRosaryWindow.xaml;Menu.xaml;
 
 False

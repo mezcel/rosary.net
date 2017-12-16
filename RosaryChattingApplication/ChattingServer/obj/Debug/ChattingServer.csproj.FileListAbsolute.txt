@@ -30,3 +30,6 @@ D:\VisualStudio\ChattingApplication\ChattingServer\bin\Debug\ChattingInterfaces.
 D:\VisualStudio\ChattingApplication\ChattingServer\obj\Debug\ChattingServer.csprojResolveAssemblyReference.cache
 D:\VisualStudio\ChattingApplication\ChattingServer\obj\Debug\ChattingServer.exe.manifest
 D:\VisualStudio\ChattingApplication\ChattingServer\obj\Debug\ChattingServer.application
+D:\github\rosary.net\RosaryChattingApplication\ChattingServer\bin\Debug\ChattingServer.exe.config
+D:\github\rosary.net\RosaryChattingApplication\ChattingServer\obj\Debug\ChattingServer.exe
+D:\github\rosary.net\RosaryChattingApplication\ChattingServer\obj\Debug\ChattingServer.pdb
