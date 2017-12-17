@@ -2,8 +2,8 @@
 
 ### Readme Landing Page
 
-This git ```master``` bundle is a merge between two branches within this repo;
-_Version 1_ and _Version 2_ of a prayer/database application.
+This git ```master``` branch is a merge between two branches within this repo:
+_Version 1_ and _Version 2_ of a prayer/database application. This serves more as a ```landing page portfolio``` vs a maintained branch. _Version 1_ and _Version 2_ are maintained in their respective branch within this repo.
 
 ##### Visual Studio Project Folders (enclosed project folders)
 
