@@ -9,9 +9,7 @@ Version 1 and Version 2 of a prayer/database application.
 
     master
         Version 1 - rosary.net-git-friendly-version-1
-            [folder](https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-1)
         Version 2 - rosary.net-git-friendly-version-2
-            [folder](https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-2)
 
 ##### Sql Script to be entered though your personal MySql setup (WAMPP/MySql Workbench)
 
@@ -36,14 +34,14 @@ Version 1 and Version 2 of a prayer/database application.
 * This was the best and my most prayerful version. But it was in WinForm. Its value to others would be comparable to the use of Latin in a mainstream Catholic Church. It would convey deep meaning and reverence, but nobody can use it unless they know, and value, how the Past used to work.
 
     - [Youtube](https://www.youtube.com/watch?v=VLw9K8jhlSk)
-    - Github: [branch:rosary.net-git-friendly-version-1](https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-1) (https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-1)
+    - Github: [branch:rosary.net-git-friendly-version-1](https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-1)
 
 > [Version 2 - C#, WCF, WPF, TCP/IP, Client-Client, Client-Server](http://mezcel.wixsite.com/rosary): WCF/WPF (Multi User Social Rosary Prayer Group)
 
 * This version is my most Advanced version. It synchronizes multiple users as they join and exit a rosary prayer group. It is plug and play on any Wi-Fi router network. It bypasses and surpasses the limitations of the “newer and better ASP.NET. There is a chat room. The Prayer Leader or “Host Server” can change ownership to anyone active on the same prayer circle.
 
     - [Youtube](https://www.youtube.com/watch?v=nyNlIzxZSl8)
-    - Github: [ branch:rosary.net-git-friendly-version-2](https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-2) (https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-2)
+    - Github: [ branch:rosary.net-git-friendly-version-2](https://github.com/mezcel/rosary.net/tree/master/rosary.net-git-friendly-version-2)
     - [Wiki](http://mezcel.wixsite.com/rosary)
         - [Requirements Management](http://mezcel.wixsite.com/rosary/conceptual-requirements)
 
@@ -54,5 +52,5 @@ Version 1 and Version 2 of a prayer/database application.
 
 * This version is my most practical. No extraordinary bells and whistles. It is the most “cross-platform” of the three. This one will actually get used and shared. Unfortunately it is the least visually appealing of the three.
 
-    - [Youtube] - (https://www.youtube.com/watch?v=cnw_XRBKW8Y&t=24s)
-    - [Github  Repo] - (https://github.com/mezcel/rosary-jquery-mobile) (https://github.com/mezcel/rosary-jquery-mobile)
+    - [Youtube](https://www.youtube.com/watch?v=cnw_XRBKW8Y&t=24s)
+    - Github: [repo:rosary-jquery-mobile](https://github.com/mezcel/rosary-jquery-mobile)
