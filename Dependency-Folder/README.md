@@ -6,9 +6,9 @@
 
 ***What I Use:*** I prefer to use MySql Workbench ```mysql-workbench-community-6.3.6-winx64``` I did not enclose it, nor ```mysql-installer-community-5.7.10.0```. I have it saved offline if Oracle drops it from their DB Repo. Call me if google doesn't help.
 
-    * MySql provided by WAMPP works just as well if the Oracle site changes their services in future years.
+    The MySql provided by WAMPP is a nice alternative to Oracle, since their site is expected to continue to keep changing what programs they actively choose to support.
 
-#### Python aside... you need the following to develop programs on VS12:
+#### Python and Server aside... you need the following to develop programs on VS12:
 
 * mysql-for-visualstudio-1.2.6.msi
 * mysql-connector-net-6.9.8.msi
