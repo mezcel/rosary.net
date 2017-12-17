@@ -1,11 +1,11 @@
-# Client-Server, Socially Interactive, C#,  App .NET Repo
+# Rosary App Using: C#, WCF/WPF, TCP/IP, and MySql
 
 ### Readme Landing Page
 
 This git ```master``` packages is a merge between two branches within this repo;
-Version 1 and Version 2 of a prayer/database application.
+_Version 1_ and _Version 2_ of a prayer/database application.
 
-##### Visual Studio Project Folders
+##### Visual Studio Project Folders (enclosed project folders)
 
     master
         Version 1 - rosary.net-git-friendly-version-1
@@ -18,7 +18,7 @@ Version 1 and Version 2 of a prayer/database application.
             DB ER Schema - lecciodivinaSchema.sql
             DB Insert Data - INSERT.sql
 
-##### Dependency Adapters (legacy)
+##### Dependency Adapters (enclosed are reliable legacy components)
 
     master
         Dependency-Folder
