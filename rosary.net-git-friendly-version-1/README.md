@@ -1,28 +1,31 @@
 # Rosary App – Version 1
 ##### A Basic C Sharp and MySql Connector ADO App
 
-I have not touched this code for about a year since posting it. I may have modified some comments, but the structure and design is pretty much the same.
+* I have not touched this code for about a year since posting it. I may have modified some comments, but the structure and design is pretty much the same.
 
-I consolidated it to be Git friendly. The previous post was just a glorified Gist previewing key script which makes this application work.
+* I consolidated it to be Git friendly. The previous post was just a glorified Gist previewing key script which makes this application work.
 
 ---
 
-# ADO.NET MySql Connector Devotional Pamphlet Application 
+## An ADO.NET MySql Connector Devotional Pamphlet Application
 ### (App Development Example)
 
 This app was developed using Visual Studio with the MySql Connector ADO.NET Plugin
 
+This is source code for VS12. You can either build and export it yourself, or you can view the [Youtube](https://www.youtube.com/watch?v=VLw9K8jhlSk) to see it in action.
+
 [Rosary App Web Page:](http://mezcel.wixsite.com/rosary) A web page link used to illustrate the organization and purpose of this coding project
 
 ### Sacred Scripture DB
-_Lectio Divina Database Server,_
-_Interactive Devotional Pamphlet,_
-_Prayer Bead Simulator,_
-_Multi-Language Translation,_
+
+* Lectio Divina Database Server
+* Interactive Devotional Pamphlet
+* Prayer Bead Simulator
+* Multi-Language Translation
 
 ---
 
-This was the 2nd Development Platform build in my Rosary Series
+###### Links to my other Versions:
 
 > [Version 1](https://www.youtube.com/watch?v=VLw9K8jhlSk): WinForm (Rosary + Religious Scripture / Bible Database)
 * This was the best and my most prayerful version. But it was in WinForm. Its value to others would be comparable to the use of Latin in a mainstream Catholic Church. It would convey deep meaning and reverence, but nobody can use it unless they know, and value, how the Past used to work.
