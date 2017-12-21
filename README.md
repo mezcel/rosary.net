@@ -1,33 +1,28 @@
 # Rosary App Using: C#, WCF/WPF, TCP/IP, and MySql
 
-### Readme Landing Page
-
-This git ```master``` branch is a merge between two branches within this repo:
-_Version 1_ and _Version 2_ of a prayer/database application. This serves more as a ```landing page portfolio``` vs a maintained branch. _Version 1_ and _Version 2_ are maintained in their respective branch within this repo.
-
-##### Visual Studio Project Folders (enclosed project folders)
-
-    master
-        Version 1 - rosary.net-git-friendly-version-1
-        Version 2 - rosary.net-git-friendly-version-2
-
-##### Sql Script to be entered though your personal MySql setup (WAMPP/MySql Workbench)
-
-    master
-        MySql-Schema-Insert
-            DB ER Schema - lecciodivinaSchema.sql
-            DB Insert Data - INSERT.sql
-
-##### Dependency Adapters (enclosed are reliable legacy components)
-
-    master
-        Dependency-Folder
-            mysql-for-visualstudio-1.2.6.msi
-            mysql-connector-net-6.9.8.msi
+## Project Description [Wiki Web Page](http://mezcel.wixsite.com/rosary)
 
 ---
 
-## About
+### About
+
+This git ```master``` branch is a merging of two child branches within this repo: ```branch:Version-1``` and ```branch:Version-2```.
+
+* Necessary Dependencies:
+
+    * Dependency-Folder\mysql-for-visualstudio-1.2.6.msi
+
+    * Dependency-Folder\mysql-connector-net-6.9.8.msi
+
+* Server Sql:
+
+    * MySql-Schema-Insert\lecciodivinaSchema.sql
+
+    * MySql-Schema-Insert\INSERT.sql
+
+---
+
+## Development Versions
 
 > [Version 1](https://www.youtube.com/watch?v=VLw9K8jhlSk): WinForm (Rosary + Religious Scripture / Bible Database)
 
