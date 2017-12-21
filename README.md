@@ -1,6 +1,7 @@
-# Rosary App Using: C#, WCF/WPF, TCP/IP, and MySql
+# Rosary App .Net
+##### Using: C#, WCF/WPF, TCP/IP, and MySql
 
-## Project Description [Wiki Web Page](http://mezcel.wixsite.com/rosary)
+>Project Description [Wiki Web Page](http://mezcel.wixsite.com/rosary)
 
 ---
 
@@ -50,5 +51,5 @@ This git ```master``` branch is a merging of two child branches within this repo
 
 * This version is my most practical. No extraordinary bells and whistles. It is the most “cross-platform” of the three. This one will actually get used and shared. Unfortunately it is the least visually appealing of the three.
 
-    - [Youtube](https://www.youtube.com/watch?v=cnw_XRBKW8Y&t=24s)
+    - [Youtube](https://www.youtube.com/watch?v=cnw_XRBKW8Y)
     - Github: [repo:rosary-jquery-mobile](https://github.com/mezcel/rosary-jquery-mobile)
